@@ -1,0 +1,9 @@
+# Site settings
+title: Weight Of
+email: perandre@gmail.com
+description: "Weight and mass of all the things you care about"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://weightof.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

@@ -3,3 +3,4 @@
 *.DS_Store
 /stylesheets/*
 npm-debug.log
+_site
