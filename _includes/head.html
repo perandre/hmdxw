@@ -1,10 +1,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-   <meta property="og:title" content="What is the Weight of the Earth?">
+  <!-- <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> -->
+  <title>What is the weight of: {% if page.title %}{{ page.title }}{% endif %}</title>
+   <meta property="og:title" content="What is the weight of: {% if page.title %}{{ page.title }}{% endif %}">
   <meta property="og:image" content="http://weightof.com/img/weightof-og.png">
-  <meta property="og:site_name" content="WeightOf">
+  <meta property="og:site_name" content="Weight Of">
   <meta property="og:url" content="http://weightof.com">
   <meta name="description" property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <style>
